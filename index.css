@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Lucida Sans", Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: blueviolet;
+  font-size: 2rem;
+  font-style: oblique;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%;
+  border: 2px solid blueviolet; 
+}
